@@ -14,28 +14,28 @@ const links = [
 ];
 const projects = [
     {
-        title: "Number 1",
+        title: "Mastermind",
         link: "http://github.com",
         imgsrc: "https://picsum.photos/300",
-        description:"I'm baby hammock knausgaard waistcoat kale chips typewriter VHS leggings distillery four dollar toast you probably haven't heard of them. Helvetica ennui sustainable pork belly distillery echo park offal next level crucifix pinterest. Meditation aesthetic YOLO pug migas. Meditation prism air plant XOXO literally narwhal artisan sustainable ethical readymade pickled kitsch meh. Church-key irony drinking vinegar, pug wayfarers gluten-free swag gentrify coloring book cardigan glossier mixtape ethical adaptogen helvetica. Yr keytar street art bushwick dreamcatcher woke banh mi cray celiac humblebrag 3 wolf moon."
+        description:"MastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermindMastermind."
     },
     {
-        title: "Number 2",
+        title: "Abe's List Job Board",
         link: "http://github.com",
         imgsrc: "https://picsum.photos/300",
-        description:"I'm baby hammock knausgaard waistcoat kale chips typewriter VHS leggings distillery four dollar toast you probably haven't heard of them. Helvetica ennui sustainable pork belly distillery echo park offal next level crucifix pinterest. Meditation aesthetic YOLO pug migas. Meditation prism air plant XOXO literally narwhal artisan sustainable ethical readymade pickled kitsch meh. Church-key irony drinking vinegar, pug wayfarers gluten-free swag gentrify coloring book cardigan glossier mixtape ethical adaptogen helvetica. Yr keytar street art bushwick dreamcatcher woke banh mi cray celiac humblebrag 3 wolf moon."
+        description:"JobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobsJobs"
     },
     {
-        title: "Number 3",
+        title: "Contacts organizer",
         link: "http://github.com",
         imgsrc: "https://picsum.photos/300",
-        description:"I'm baby hammock knausgaard waistcoat kale chips typewriter VHS leggings distillery four dollar toast you probably haven't heard of them. Helvetica ennui sustainable pork belly distillery echo park offal next level crucifix pinterest. Meditation aesthetic YOLO pug migas. Meditation prism air plant XOXO literally narwhal artisan sustainable ethical readymade pickled kitsch meh. Church-key irony drinking vinegar, pug wayfarers gluten-free swag gentrify coloring book cardigan glossier mixtape ethical adaptogen helvetica. Yr keytar street art bushwick dreamcatcher woke banh mi cray celiac humblebrag 3 wolf moon."
+        description:"Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name Name ."
     },
     {
-        title: "Number 4",
+        title: "Organizer",
         link: "http://github.com",
         imgsrc: "https://picsum.photos/300",
-        description:"I'm baby hammock knausgaard waistcoat kale chips typewriter VHS leggings distillery four dollar toast you probably haven't heard of them. Helvetica ennui sustainable pork belly distillery echo park offal next level crucifix pinterest. Meditation aesthetic YOLO pug migas. Meditation prism air plant XOXO literally narwhal artisan sustainable ethical readymade pickled kitsch meh. Church-key irony drinking vinegar, pug wayfarers gluten-free swag gentrify coloring book cardigan glossier mixtape ethical adaptogen helvetica. Yr keytar street art bushwick dreamcatcher woke banh mi cray celiac humblebrag 3 wolf moon."
+        description:"Do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this ."
     }
 ];
 const buildLinks = (links_) => links_.map((link)=>{
@@ -57,11 +57,8 @@ const buildCards = (cards) => cards.map((card)=>{
       `
 }).join('');
 const linkContainer = document.getElementById('navigation__links');
-    linkContainer.innerHTML = buildLinks(links);
+linkContainer.innerHTML = buildLinks(links);
 const footer = document.querySelector(".footer");
-footer.innerHTML = buildLinks([...links,{
-    href: "https://twitter.com",
-    content: "Tweet at Me"
-} ]);
+footer.innerHTML = buildLinks(links);
 const projectsContainer = document.getElementById('projects');
 projectsContainer.innerHTML = buildCards(projects);
