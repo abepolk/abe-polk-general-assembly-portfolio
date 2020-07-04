@@ -4,15 +4,15 @@ const links = [
         content: "Home"
     },
     {
-        href: "/resume.pdf",
+        href: "resume.pdf",
         content: "Resume"
     },
     {
-        href: "/bio.html",
+        href: "bio.html",
         content: "About Me"
     },
     {
-        href: "/projects.html",
+        href: "projects.html",
         content: "Coding projects"
     }
 ];
@@ -40,6 +40,12 @@ const projects = [
         link: "http://github.com",
         imgsrc: "https://picsum.photos/300",
         description:"Do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this do this ."
+    },
+    {
+        title: "Never Forget Again",
+        link: "https://www.aws.com",
+        imgsrc: "https://picsum.photos/300",
+        description: "jadls;fjl;sdjfouipri;wljekfhldsuijoklfehrksdfnbhkbfhaisdklnflbaiowdsh;fbhjkeufijoaklvebihfoupjklnjbaeihwojsflknbhlaijwofklenab jlhfkemnbjwalfhijkmawekb jlkhlfamnkbhiudjlkagn.kflbijoaklvmnkfblejhdioklnjebjlghijvnkd mnjfdnv dfjmn v"
     }
 ];
 const buildLinks = (links_) => links_.map((link)=>{
