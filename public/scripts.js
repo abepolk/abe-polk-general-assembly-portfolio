@@ -4,12 +4,16 @@ const links = [
         content: "Home"
     },
     {
-        href: "https://google.com",
-        content: "Google Me"
+        href: "/resume.pdf",
+        content: "Resume"
     },
     {
-        href: "https://facebook.com",
-        content: "Facebook Me"
+        href: "/bio.html",
+        content: "About Me"
+    },
+    {
+        href: "/projects.html",
+        content: "Coding projects"
     }
 ];
 const projects = [
