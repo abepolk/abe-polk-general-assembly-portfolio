@@ -35,7 +35,7 @@ const projects = [
     {
         title: "Never Forget Again",
         link: "https://master--gallant-hermann-47a94a.netlify.app",
-        description: "Lorem Ipsum"
+        description: "The app is a to-do list that allows users to keep track of items to do. The app supports the creation of users and user authentication. Users can view, create, and delete only their own tasks. The backend is hosted on AWS and uses DynamoDb. AWS is accessed through Flask and the Serverless framework. JWT and the Python hashlib library were used for authentication. flask_cors was also used. React state hooks and effect hooks were used to maintain state, and deletion of entries used optimistic updating. The frontend was hosted on Netlify"
     }
 ];
 const buildLinks = (links_) => links_.map((link)=>{
