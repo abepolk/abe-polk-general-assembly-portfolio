@@ -122,6 +122,9 @@ body .main-content{
 .card > img {
   max-width: 30rem;
 }
+.card p {
+  font-size: 1.5rem;
+}
 .card > a:link, .card > a:visited, .card > a {
   text-decoration: none;
   color: #000000;
