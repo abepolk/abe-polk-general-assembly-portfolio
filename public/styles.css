@@ -44,9 +44,14 @@ body .header{
   list-style: none;
   width: 80vw;
   padding: 0;
+  margin: 2.5vh auto;
 }
 .header > .navigation > ul > li {
   font-size: 2rem;
+  background-color: azure;
+  border-radius: 6px;
+  border: 3px solid darkgray;
+  padding: 0.5vw;
 }
 .header > .navigation > ul > li > a{
   color: rgba(0, 0, 0)
@@ -54,12 +59,15 @@ body .header{
 .header > .navigation > ul > li > a:link, .header > .navigation > ul > li > a:visited{
   text-decoration: none;
 }
-body .main-content{
+body .main-content {
   width: 95vw;
   margin: 2.5vw;
   z-index: 2;
   padding: 5vh 10vw;
-  /* Make this spacing better */
+  position: relative;
+}
+
+body .main-content:not(.about-me) {
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -144,10 +152,9 @@ body .main-content{
   margin: 1vw;
 }
 .social-media-links {
-
-  width: 95vw;
-  margin: 2.5vw;
-  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .social-media-links > a {
 }
