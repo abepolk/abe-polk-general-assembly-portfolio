@@ -40,7 +40,7 @@ const projects = [
 ];
 const buildLinks = (links_) => links_.map((link)=>{
     return `
-        <li><a href="${link.href}">${link.content}</a></li>
+        <a href="${link.href}"><li>${link.content}</li></a>
       `
 }).join('');
 const buildCards = (cards) => cards.map((card)=>{
